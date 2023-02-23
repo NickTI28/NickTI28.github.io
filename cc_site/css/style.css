@@ -215,8 +215,8 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 }
 .bioimg {
     display: flex;
-    max-width: 14em;
-    max-height: 14em;
+    max-width: 20em;
+    max-height: 20em;
     margin-right: 8em;
 }
 .advimage {
@@ -224,6 +224,7 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
     height: auto;
     width: 100%;
     align-items: center;
+    border-radius: 50%;
 }
 
 @media (max-width: 980px) {
@@ -316,7 +317,6 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 .footer-distributed .footer-center{
 	width: 35%;
 }
-
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
@@ -329,38 +329,32 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 	margin: 10px 15px;
 	vertical-align: middle;
 }
-
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
-
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
 }
-
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
-
 .footer-distributed .footer-center p a{
 	color: white;
 	text-decoration: none;;
 }
-
 
 /* Footer Right */
 
 .footer-distributed .footer-right{
 	width: 20%;
 }
-
 .footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #92999f;
@@ -368,7 +362,6 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 	font-weight: normal;
 	margin: 0;
 }
-
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
@@ -376,11 +369,9 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-
 .footer-distributed .footer-icons{
 	margin-top: 25px;
 }
-
 .footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 35px;
@@ -388,12 +379,10 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
-
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
@@ -401,11 +390,9 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-
 	.footer-distributed{
 		font-size: 14px;
 	}
-
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
 	.footer-distributed .footer-right{
@@ -414,7 +401,6 @@ h1,h2,h3,h4,h5,h6,p,nav,button {
 		margin-bottom: 40px;
 		text-align: center;
 	}
-
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
