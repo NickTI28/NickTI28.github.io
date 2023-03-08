@@ -12,7 +12,7 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 }
-function readmore() {
+function readMore() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("rd-btn");
